@@ -1,0 +1,18 @@
+package edu.epam.cycling.task3;
+
+//  Найти сумму квадратов первых ста чисел
+
+public class SummOfSquares {
+
+    public static void main(String[] args) {
+
+        int squaresSum = 1;
+
+        for (int numbers = 1; numbers <= 100; numbers ++) {
+
+            squaresSum += Math.pow(numbers, 2);
+        }
+
+        System.out.println("Summ of first 100 numbers to the power of 2 is " + squaresSum);
+    }
+}
